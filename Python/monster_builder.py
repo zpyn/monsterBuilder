@@ -78,9 +78,6 @@ class QuadGen():
         cmds.parent( [x for x in fk_controls ],self.controls_grp)
         cmds.parent( [x for x in ik_controls ],self.controls_grp)
 
-        
-    
-
     def create_bezier_chain(self, name ,main_crv, up_crv, num_joints):
         """ 
         test
@@ -434,9 +431,6 @@ class QuadGen():
         cluster_ls.append(clst)
         return cluster_ls
     
-#cmds.nurbsCurveToBezier()
-#monster = QuadGen('wolfPup')
-#monster.create_spine('spine','spine_base_cvr', 'spine_up_vector_cvr', 7, 'FKIKSpine_M_ctrl')
 
     
 
